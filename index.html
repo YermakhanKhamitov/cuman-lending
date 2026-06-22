@@ -7,13 +7,29 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
     <header class="header">
         <div class="header-wrap">
-            <nav class="menu" id="menu"></nav>
+            <a href="#home" class="logo">
+                <img src="https://www.cuman.kz/static/images/svg/logo_cuman_nav.svg" alt="Cuman">
+            </a>
+
+            <nav class="menu" id="menu">
+                <a href="#home">Главная</a>
+                <a href="#about">О сервисе</a>
+                <a href="#features">Преимущества</a>
+                <a href="#catalog">Каталог</a>
+                <a href="#contacts">Контакты</a>
+            </nav>
+
+            <a href="#contacts" class="btn btn-blue">Оставить заявку</a>
+
+            <button class="burger" id="burger" type="button" aria-label="Меню">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
         </div>
     </header>
-
     <main>
         <section class="hero" id="home"></section>
         <section class="about" id="about"></section>

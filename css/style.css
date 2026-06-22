@@ -21,3 +21,44 @@
     --transition-speed: 0.2s;
     --anim-speed: 0.5s;
 }
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: var(--color-bg-dark);
+    border-bottom: 1px solid var(--color-border-dark);
+}
+
+.header-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: var(--header-height);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+.logo img {
+    height: 38px;
+}
+
+.menu {
+    display: flex;
+    gap: 30px;
+}
+
+.menu a {
+    color: var(--color-white);
+    font-size: 15px;
+    font-weight: 500;
+    padding-bottom: 4px;
+    transition: var(--transition-speed);
+}
+
+.menu a:hover {
+    color: var(--color-main-green);
+}
