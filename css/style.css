@@ -1,0 +1,23 @@
+:root {
+    --color-bg-darkest: #000000;
+    --color-bg-dark: #1a1a1a;
+    --color-bg-card: #2a2a2a;
+    --color-main-green: #74b62e;
+    --color-main-green-hover: #63a024;
+    --color-blue: #0056b3;
+    --color-blue-hover: #004085;
+    --color-btn-dark: #262626;
+    --color-btn-dark-hover: #333333;
+    --color-border-dark: #2a2a2a;
+    --color-border-light: #444444;
+    --color-white: #ffffff;
+    --color-text-muted: #aaaaaa;
+    --color-text-light: #dddddd;
+    --color-footer-text: #666666;
+
+    --font-main: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --header-height: 90px;
+    --card-title-height: 58px;
+    --transition-speed: 0.2s;
+    --anim-speed: 0.5s;
+}
