@@ -241,3 +241,124 @@ h2.center {
     color: var(--color-text-muted);
     margin-top: 8px;
 }
+
+.contacts {
+    background-color: var(--color-bg-dark);
+}
+
+.contacts-wrap {
+    display: flex;
+    gap: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+.contacts-text {
+    flex: 1;
+}
+
+.contacts-text p {
+    color: var(--color-text-muted);
+    margin-bottom: 30px;
+}
+
+.contacts-text a {
+    display: block;
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--color-main-green);
+    margin-bottom: 12px;
+}
+
+.contacts-text a:hover {
+    color: var(--color-white);
+}
+
+.form {
+    flex: 1;
+    background-color: var(--color-bg-card);
+    padding: 40px;
+    border-radius: 12px;
+}
+
+.form label {
+    display: block;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--color-text-light);
+}
+
+.form input, .form textarea {
+    width: 100%;
+    padding: 14px;
+    margin-top: 8px;
+    background-color: var(--color-bg-darkest);
+    border: 1px solid var(--color-border-light);
+    border-radius: 4px;
+    color: var(--color-white);
+    font-family: var(--font-main);
+    font-size: 15px;
+}
+
+.form textarea {
+    height: 110px;
+    resize: vertical;
+}
+
+.form input:focus, .form textarea:focus {
+    outline: none;
+    border-color: var(--color-main-green);
+}
+
+.form .btn {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.form-status {
+    margin-top: 15px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.footer {
+    background-color: var(--color-bg-darkest);
+    border-top: 1px solid var(--color-border-dark);
+    padding: 50px 0;
+    font-size: 14px;
+}
+
+.footer-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+.footer-left img {
+    height: 32px;
+    margin-bottom: 12px;
+}
+
+.footer-left p {
+    color: var(--color-footer-text);
+}
+
+.footer-links, .footer-social {
+    display: flex;
+    gap: 24px;
+}
+
+.footer-links a, .footer-social a {
+    color: var(--color-text-muted);
+}
+
+.footer-links a:hover, .footer-social a:hover {
+    color: var(--color-main-green);
+}
