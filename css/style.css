@@ -81,6 +81,7 @@
 
 .hero-text {
     flex: 1;
+    color: var(--color-white);
 }
 
 .hero-text p {
@@ -99,6 +100,40 @@
 }
 
 .hero-img img {
+    width: 100%;
+    height: auto;
+}
+
+.about {
+    background-color: var(--color-bg-darkest);
+    border-top: 1px solid #111111;
+}
+
+.about-wrap {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+.about-text {
+    color: var(--color-white);
+    flex: 1;
+}
+
+.about-text p {
+    color: var(--color-text-muted);
+    font-size: 16px;
+}
+
+.about-img {
+    flex: 1;
+}
+
+.about-img img {
+    border-radius: 12px;
     width: 100%;
     height: auto;
 }
